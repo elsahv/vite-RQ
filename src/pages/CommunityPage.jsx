@@ -1,5 +1,4 @@
-import TestImg from "../assets/jtVertical.jpg";
-import Header from "../components/Header";
+// import Header from "../components/Header";
 
 import SignedInContent from "../components/SignedInContent";
 import SignedOutContent from "../components/SignedOutContent";
