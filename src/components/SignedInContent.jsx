@@ -49,14 +49,12 @@ const Test = () => {
                     {items.map((item) => (
                       <div
                         id="sq"
-                        className="bg-munsell text-platinum rounded-md p-3 border border-black "
+                        className="bg-munsell text-onyx rounded-md p-3 border border-black "
                       >
                         <img src={PrimoseImg} alt="" className="" />
                         <div id="content-container" className="p-1 mb-2">
                           <h2 className="pt-2 font-semibold">{item.title}</h2>
-                          <p className="2xl:text-lg text-sm text-lavender">
-                            {item.p}
-                          </p>
+                          <p className="2xl:text-lg text-sm ">{item.p}</p>
                         </div>
                       </div>
                     ))}
@@ -68,7 +66,7 @@ const Test = () => {
               <div id="aside" className="">
                 <div
                   id="aside-wrapper"
-                  className=" md:w-1/4 w-full border-l-2 border-lavender md:absolute relative right-0 "
+                  className=" md:w-1/4 w-full border-l-2 bg-munsell border-lavender md:absolute relative right-0 "
                 >
                   <div className="py-5 px-4  text-onyx aside-container">
                     <h2 className="font-bold text-lg">Welcome!</h2>
@@ -94,7 +92,7 @@ const Test = () => {
                             type="text"
                             id="title"
                             name="title"
-                            className="border rounded w-full py-2 px-3 mt-5 mb-2"
+                            className="border rounded bg-onyx w-full py-2 px-3 mt-5 mb-2"
                             placeholder="name"
                             required
                           />
@@ -102,14 +100,14 @@ const Test = () => {
                             type="text"
                             id="title"
                             name="title"
-                            className="border rounded w-full mt-1 py-2 px-3 mb-2"
+                            className="border rounded bg-onyx w-full mt-1 py-2 px-3 mb-2"
                             placeholder="email"
                             required
                           />
                           <textarea
                             id="description"
                             name="description"
-                            className="border rounded w-full py-2 px-3"
+                            className="border rounded bg-onyx w-full py-2 px-3"
                             rows="4"
                             placeholder="Add any job duties, expectations, requirements, etc"
                           ></textarea>

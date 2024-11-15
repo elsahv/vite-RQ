@@ -3,7 +3,7 @@
 import SignedInContent from "../components/SignedInContent";
 import SignedOutContent from "../components/SignedOutContent";
 
-const Test = () => {
+const CommunityPage = () => {
   return (
     <>
       <SignedOutContent />
@@ -20,4 +20,4 @@ const Test = () => {
   );
 };
 
-export default Test;
+export default CommunityPage;

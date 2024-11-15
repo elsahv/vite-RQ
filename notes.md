@@ -1,4 +1,7 @@
+_ADD SLUG PGS TO GRID SQS_
 _KEEP LEFT SQ AS- JT LOGO FOR NOW_
+
+add conditional statement to community pg: comps/SignedInComp or SignOutComp
 
 - TRAVERSY TUT-https://www.youtube.com/watch?v=LDB4uaJ87e0&t=3396s-217:487
 - currently use this ^ tut/template for wtbh and rq.
