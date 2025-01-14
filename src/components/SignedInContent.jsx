@@ -1,6 +1,6 @@
 import TestImg from "../assets/jtVertical.jpg";
 import PrimoseImg from "../assets/primoseFlower.jpg";
-import JtLogo from "../assets/jt-logo2.png";
+import Header from "../components/Header";
 
 const items = [
   {
@@ -33,7 +33,8 @@ const items = [
 const Test = () => {
   return (
     <>
-      <div id="wrapper" className="">
+      <Header />
+      <div id="wrapper" className="bg-munsell">
         <div id="container">
           <div id="grid" className="flex md:flex-row flex-col-reverse">
             <div id="sq1" className="">
@@ -49,7 +50,7 @@ const Test = () => {
                     {items.map((item) => (
                       <div
                         id="sq"
-                        className="bg-munsell text-onyx rounded-md p-3 border border-black "
+                        className="bg-onyx text-platinum  border-platinum rounded-md p-3 border border-black "
                       >
                         <img src={PrimoseImg} alt="" className="" />
                         <div id="content-container" className="p-1 mb-2">
@@ -66,7 +67,7 @@ const Test = () => {
               <div id="aside" className="">
                 <div
                   id="aside-wrapper"
-                  className=" md:w-1/4 w-full border-l-2 bg-munsell border-lavender md:absolute relative right-0 "
+                  className=" md:w-1/4 w-full  bg-white border-l-2 border-black md:absolute relative right-0 "
                 >
                   <div className="py-5 px-4  text-onyx aside-container">
                     <h2 className="font-bold text-lg">Welcome!</h2>

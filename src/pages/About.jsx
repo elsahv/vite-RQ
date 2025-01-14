@@ -41,7 +41,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div id="TEST-SCREEN" className="h-screen bg-"></div>
+      <div id="TEST-SCREEN" className=""></div>
     </>
   );
 };

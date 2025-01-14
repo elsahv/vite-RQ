@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import JtLogo from "../assets/jt-logo2.png";
 import ContactForm from "../components/ContactForm";
 
@@ -20,7 +21,10 @@ const HomePage = () => {
               <div id="content-container" className=" text-onyx mb-5 pb-5">
                 <h2 className="font- text-4xl text-">Hi there,</h2>
                 <p className="text-2xl">
-                  Welcome to the Running Quail, a Morongo Basin Community.
+                  Welcome to the Running Quail,{" "}
+                  <span className="underline">
+                    <Link to="/"> a Morongo Basin Community.</Link>
+                  </span>
                 </p>
 
                 {/*//* <!-10/22/24 --CURRENTLY: BUILDING FORM v-*--*--*--*--*--*--*--> */}
